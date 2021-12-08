@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+a, a:hover{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.logo{
+    width: 40px;
+    height: 40px;
+    margin-left: 40px;
+}
+
+.flex-nav{
+    display: flex;
+    gap: 50px;
+}
+
+.contact-btn{
+    margin-right: 40px;
+}
+
+main{
+    width: 1140px;
+    margin: 0 auto;
+    
+}
+section{
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 150px;
+    
+
+}
+
+img{
+    max-width: 100%;
+    width: 150px;
+    height: 150px;
+   
+}
+
+p{
+    padding-left: 20px;
+    margin-top: 50px;
+    
+}
